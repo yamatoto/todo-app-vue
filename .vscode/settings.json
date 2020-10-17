@@ -1,0 +1,164 @@
+{
+  "bookmarks.navigateThroughAllFiles": true,
+
+  "breadcrumbs.enabled": true, // 階層リンク(パンくずリスト)の表示
+
+  "editor.autoIndent": "full",
+  "editor.codeActionsOnSave": {
+    "source.fixAll.eslint": true,
+    "source.organizeImports": true,
+    "source.fixAll": true
+  },
+  "editor.codeLens": false,
+  "editor.cursorBlinking": "smooth", // カーソルの表示形式
+  "editor.cursorStyle": "line", // カーソルの形状
+  "editor.cursorWidth": 2,
+  "editor.detectIndentation": false,
+  "editor.emptySelectionClipboard": true, // 選択範囲無しでのコピーを許可
+  "editor.folding": true, // コードの折りたたみを許可
+  "editor.fontSize": 16,
+  "editor.formatOnPaste": false,
+  "editor.formatOnSave": false, // codeActionsOnSaveを使うのでfalse
+  "editor.formatOnType": true,
+  "editor.glyphMargin": true, // 行の左端に余白を作る
+  "editor.insertSpaces": true, // Tabキーで半角スペースを入力
+  "editor.quickSuggestions": { // 補完候補の自動表示
+    "comments": false, // コメント内では無効
+    "strings": true, // 文字列内では有効
+    "other": true // その他の場所で有効
+  },
+  "editor.letterSpacing": -1, // 文字の間隔を詰める
+  "editor.lineNumbers": "on", // 行番号の表示
+  "editor.links": true, // リンクをクリック可能に
+  "editor.matchBrackets": "never", // 対応する括弧の強調表示をオンに
+  "editor.minimap.enabled": true, // ミニマップの表示
+  "editor.minimap.maxColumn": 40, // ミニマップの幅
+  "editor.minimap.renderCharacters": false, // ミニマップを簡略化
+  "editor.minimap.showSlider": "always", // ミニマップのハイライトを常に表示
+  "editor.minimap.side": "right", // ミニマップを右に表示
+  "editor.mouseWheelScrollSensitivity": 0.7, // マウスホイール回転の移動係数
+  "editor.mouseWheelZoom": false, // Ctrl+マウスホイールによるズームを無効化
+  "editor.renderControlCharacters": true, // 制御文字の表示
+  "editor.renderIndentGuides": true, // インデントのガイドラインを表示
+  "editor.renderLineHighlight": "all", // 選択中の行を強調する
+  "editor.renderWhitespace": "boundary", // 空白文字を表示する
+  "editor.roundedSelection": true, // 選択範囲の角を丸める
+  "editor.scrollBeyondLastLine": true, // 最終行よりも下へのスクロールを許可
+  "editor.suggestFontSize": 14, // サジェストの文字サイズ
+  "editor.suggestLineHeight": 24, // サジェスト欄の行の高さ
+  "editor.suggestSelection": "first",
+  "editor.tabCompletion": "on",
+  "editor.tabSize": 2,
+  "editor.wordWrap": "off", // 右端で折り返さない
+
+  "explorer.confirmDragAndDrop": false,
+
+  "eslint.enable": true,
+  "eslint.run": "onType",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "vue",
+    "typescript"
+  ],
+
+  "extensions.ignoreRecommendations": false, // 推奨事項の通知をOFF
+
+  "files.autoGuessEncoding": false, // 文字コードを自動判別
+  "files.autoSave": "onFocusChange", // ダーティファイルの作成を無効
+  "files.encoding": "utf8",
+  "files.eol": "\n", // 改行コードをLF(Linux/OSX)にする
+  "files.exclude": { // エクスプローラーから除外するファイルとフォルダ
+    "**/.svn": true,
+    "**/.hg": true,
+    "**/CVS": true,
+    "**/.DS_Store": true,
+    "**/bin": true,
+    "**/*.exe": true,
+    "**/*.o": true,
+    "**/*.obj": true,
+    "**/*.ilk": true,
+    "**/*.pdb": true,
+    "**/*.tlog": true,
+    "**/*.idb": true,
+    "**/*.dll": true,
+    "**.vs": true
+  },
+  "files.insertFinalNewline": true, // ファイルの終端に空の行を追加
+  "files.trimFinalNewlines": true, // 不要な行の削除
+  "files.trimTrailingWhitespace": true,
+  "files.watcherExclude": { // CPU使用の軽減.サイズの大きいファイルがあるとCPU使用率が高くなることがある。
+    "**/images/**": true
+  },
+
+  "git.autofetch": true,
+
+  "html.format.enable": false,
+  "html.format.endWithNewline": true,
+  "html.format.contentUnformatted": "pre,code,textarea", // コンテンツを再フォーマットしてはならないタグをコンマで区切ってリストにする。'null' は、既定値の'pre' タグを表す。
+  "html.format.wrapAttributes": "auto", // 属性を折り返す。
+  "html.format.indentInnerHtml": true,
+
+  "indentRainbow.colors": [
+    "rgba(255,255,64,0.3)",
+    "rgba(127,255,127,0.3)",
+    "rgba(255,127,255,0.3)",
+    "rgba(79,236,236,0.3)"
+  ],
+
+  "javascript.format.enable": false,
+  "javascript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+
+  "nuxt-typescript-snippets.enable": true,
+
+  "telemetry.enableCrashReporter": true,
+  "telemetry.enableTelemetry": true,
+
+  "terminal.integrated.rendererType": "dom",
+
+  "typescript.format.insertSpaceBeforeFunctionParenthesis": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "typescript.autoImportSuggestions.enabled": true,
+
+  "vetur.format.defaultFormatter.css": "prettier",
+  "vetur.format.defaultFormatter.html": "prettier",
+  "vetur.format.defaultFormatter.js": "prettier-eslint",
+  "vetur.format.defaultFormatter.less": "prettier",
+  "vetur.format.defaultFormatter.postcss": "prettier",
+  "vetur.format.defaultFormatter.scss": "prettier",
+  "vetur.format.defaultFormatter.ts": "vscode-typescript",
+  "vetur.validation.style": true,
+  "vetur.validation.template": false,
+
+  "vsicons.dontShowNewVersionMessage": true,
+  "vsicons.presets.jsonOfficial": true,
+
+  "vue-helper.language": "en-US",
+  "vue-helper.quotes": "single",
+
+  "window.closeWhenEmpty": true,
+  "window.zoomLevel": 0,
+
+  "workbench.colorCustomizations": {
+    "statusBar.noFolderBackground": "#000000",
+    "statusBar.noFolderForeground": "#ffffff",
+    "sideBar.background": "#000000",
+    "sideBar.foreground": "#ffffff",
+    "activityBar.border": "#ffffff",
+    "editor.background": "#121817",
+    "editor.lineHighlightBackground": "#002255",
+    "editor.selectionBackground": "#660000",
+    "editorError.border": "#ff0000",
+    "editorLineNumber.foreground": "#0077ffbb",
+    "editorLineNumber.activeForeground": "#ffffff",
+    "scrollbarSlider.background": "#0077ff99",
+    "scrollbarSlider.hoverBackground": "#00ccffcc",
+    "tab.inactiveForeground": "#999999",
+    "editorBracketMatch.background": "#ffff0077",
+    "editorSuggestWidget.selectedBackground": "#0044ff",
+    "scrollbar.shadow": "#0077ff99",
+    "editorLink.activeForeground": "#5555ce"
+  },
+  "workbench.iconTheme": "vscode-icons"
+}
